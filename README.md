@@ -3,7 +3,7 @@ A multithreaded application in C with Pthreads - it determines whether the solut
 Identifying location and reason for an invalid puzzle
 Any problematic cell in a puzzle causes at least one or more of the following three errors: value not between 1 and 9, duplicated value, and missing value.
 
-When a row/column/subgrid thread identifies any error (so that the puzzle is not valid), the thread must print out the problematic row/column/puzzle location and the specific error to stdout (to be included in the screenshots).
+When a row/column/subgrid thread identifies any error (so that the puzzle is not valid), the thread must print out the problematic row/column/puzzle location and the specific error to stdout.
 
 For example, there are three error types,
 
